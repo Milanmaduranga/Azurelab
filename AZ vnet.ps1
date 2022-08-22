@@ -38,7 +38,7 @@ New-AzVm `
 -Location "EastUS" `
 -VirtualNetworkName "Vnet1" `
 -SubnetName "subnet1" `
--PublicIpAddressName "vm1PubAdd" `
+-PublicIpAddressName "vm1PubIPAdd" `
 -OpenPorts 3389 `
 -Image "Win2012R2Datacenter" `
 -Size "Standard_DS1_v2"
